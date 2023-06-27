@@ -308,8 +308,8 @@
 
 - partition_index: SYS16
   partition_name: nvdata
-  file_name: NONE
-  is_download: false
+  file_name: nvdata
+  is_download: true
   type: EXT4_IMG
   linear_start_addr: 0x9ea2000
   physical_start_addr: 0x9ea2000
@@ -650,8 +650,8 @@
 
 - partition_index: SYS35
   partition_name: nvram
-  file_name: NONE
-  is_download: false
+  file_name: nvram
+  is_download: true
   type: NORMAL_ROM
   linear_start_addr: 0x25f80000
   physical_start_addr: 0x25f80000
