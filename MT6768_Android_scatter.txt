@@ -33,6 +33,7 @@
   operation_type: BOOTLOADERS
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS1
@@ -50,6 +51,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS2
@@ -67,6 +69,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS3
@@ -84,6 +87,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS4
@@ -101,6 +105,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS5
@@ -118,6 +123,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS6
@@ -135,6 +141,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS7
@@ -152,6 +159,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS8
@@ -169,6 +177,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS9
@@ -186,6 +195,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS10
@@ -203,6 +213,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS11
@@ -220,6 +231,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS12
@@ -237,6 +249,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS13
@@ -254,6 +267,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS14
@@ -271,6 +285,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS15
@@ -288,6 +303,7 @@
   operation_type: PROTECTED
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS16
@@ -305,6 +321,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS17
@@ -322,6 +339,7 @@
   operation_type: PROTECTED
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS18
@@ -339,6 +357,7 @@
   operation_type: PROTECTED
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS19
@@ -356,6 +375,7 @@
   operation_type: PROTECTED
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS20
@@ -373,6 +393,7 @@
   operation_type: PROTECTED
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS21
@@ -390,6 +411,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS22
@@ -407,6 +429,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS23
@@ -424,6 +447,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS24
@@ -441,6 +465,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS25
@@ -458,6 +483,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS26
@@ -475,6 +501,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS27
@@ -492,6 +519,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: true
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS28
@@ -509,6 +537,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS29
@@ -526,6 +555,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS30
@@ -543,6 +573,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: true
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS31
@@ -560,6 +591,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS32
@@ -577,12 +609,13 @@
   operation_type: PROTECTED
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS33
   partition_name: efuse
-  file_name: NONE
-  is_download: false
+  file_name: efuse.img
+  is_download: true
   type: NORMAL_ROM
   linear_start_addr: 0x24500000
   physical_start_addr: 0x24500000
@@ -591,9 +624,10 @@
   storage: HW_STORAGE_EMMC
   boundary_check: true
   is_reserved: false
-  operation_type: INVISIBLE
+  operation_type: UPDATE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS34
@@ -611,6 +645,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS35
@@ -628,6 +663,7 @@
   operation_type: BINREGION
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS36
@@ -643,8 +679,9 @@
   boundary_check: true
   is_reserved: false
   operation_type: UPDATE
-  is_upgradable: true
+  is_upgradable: false
   empty_boot_needed: true
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS37
@@ -660,8 +697,9 @@
   boundary_check: true
   is_reserved: false
   operation_type: INVISIBLE
-  is_upgradable: true
+  is_upgradable: false
   empty_boot_needed: true
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS38
@@ -679,6 +717,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS39
@@ -696,6 +735,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS40
@@ -713,6 +753,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS41
@@ -730,6 +771,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS42
@@ -747,6 +789,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS43
@@ -764,6 +807,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS44
@@ -781,6 +825,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS45
@@ -798,6 +843,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS46
@@ -815,6 +861,7 @@
   operation_type: INVISIBLE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS47
@@ -832,6 +879,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS48
@@ -849,6 +897,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS49
@@ -866,6 +915,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS50
@@ -883,6 +933,7 @@
   operation_type: UPDATE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS51
@@ -900,6 +951,7 @@
   operation_type: UPDATE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS52
@@ -917,6 +969,7 @@
   operation_type: INVISIBLE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS53
@@ -934,6 +987,7 @@
   operation_type: UPDATE
   is_upgradable: true
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS54
@@ -951,6 +1005,7 @@
   operation_type: UPDATE
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS55
@@ -968,6 +1023,7 @@
   operation_type: RESERVED
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS56
@@ -985,6 +1041,7 @@
   operation_type: RESERVED
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
 - partition_index: SYS57
@@ -1002,5 +1059,6 @@
   operation_type: RESERVED
   is_upgradable: false
   empty_boot_needed: false
+  combo_partsize_check: false
   reserve: 0x00
 
