@@ -1,22 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
-  --primary: #6750A4;
-  --primary-container: #EADDFF;
-  --secondary: #625B71;
-  --tertiary: #B3261E;
-  --background: #FFFBFE;
-  --text-color: #1C1B1F;
+  --primary: #6750a4;
+  --primary-container: #eaddff;
+  --secondary: #625b71;
+  --tertiary: #b3261e;
+  --background: #fffbfe;
+  --text-color: #1c1b1f;
   --line-stroke: 2px;
   --font-weight: 600;
-  --font-family: 'Azaret Mono';
+  --font-family: "Urbanist";
   --font-size: 1rem;
   --padding: 1rem;
   --half-padding: 0.5rem;
   --radius-sm: 4px;
 }
 
-body, html, button, a {
+body,
+html,
+button,
+a {
   font-family: var(--font-family), monospace;
   font-optical-sizing: auto;
   font-weight: var(--font-weight);
@@ -27,18 +29,31 @@ button {
   border: var(--line-stroke) solid var(--primary);
   color: var(--primary);
   background-color: var(--background);
-  padding:  var(--half-padding) var(--padding);
+  padding: var(--half-padding) var(--padding);
   border-radius: var(--radius-sm);
   cursor: pointer;
+  user-select: none;
+}
+
+button[filled] {
+  background-color: var(--primary);
+  color: var(--background);
+}
+
+button[tertiary] {
+  border: var(--line-stroke) solid var(--tertiary);
+  color: var(--tertiary);
+  background-color: var(--background);
 }
 
 dialog {
-  padding:  var(--half-padding);
+  padding: var(--half-padding);
   border-radius: var(--radius-sm);
   border: var(--line-stroke) solid var(--primary);
 }
 
 dialog::backdrop {
+  opacity: 0.7;
   background-color: var(--primary-container);
 }
 

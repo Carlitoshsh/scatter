@@ -3,7 +3,7 @@ export default {
   name: "cagh-dialog",
   methods: {
     open() {
-      this.$refs.dialog.show();
+      this.$refs.dialog.showModal();
     },
   },
 };
@@ -14,7 +14,7 @@ export default {
     <div class="grid gap">
       <slot></slot>
       <form method="dialog">
-        <button>Ok</button>
+        <button filled>Ok</button>
       </form>
     </div>
   </dialog>

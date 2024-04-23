@@ -6,6 +6,7 @@ import Dialog from "../components/Dialog.vue";
 <template>
   <main>
     <TheWelcome />
+    <button tertiary>Hola</button>
     <button @click="$refs.dialog.open()">Test</button>
 
     <Dialog ref="dialog">
