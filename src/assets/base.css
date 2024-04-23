@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary: #6750A4;
+  --primary-container: #EADDFF;
+  --secondary: #625B71;
+  --tertiary: #B3261E;
+  --background: #FFFBFE;
+  --text-color: #1C1B1F;
+  --line-stroke: 2px;
+  --font-weight: 600;
+  --font-family: 'Azaret Mono';
+  --font-size: 1rem;
+  --padding: 1rem;
+  --half-padding: 0.5rem;
+  --radius-sm: 4px;
+}
+
+body, html, button, a {
+  font-family: var(--font-family), monospace;
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+}
+
+button {
+  border: var(--line-stroke) solid var(--primary);
+  color: var(--primary);
+  background-color: var(--background);
+  padding:  var(--half-padding) var(--padding);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+dialog {
+  padding:  var(--half-padding);
+  border-radius: var(--radius-sm);
+  border: var(--line-stroke) solid var(--primary);
+}
+
+dialog::backdrop {
+  background-color: var(--primary-container);
+}
+
+.grid {
+  display: grid;
+}
+
+.gap {
+  gap: var(--half-padding);
+}
